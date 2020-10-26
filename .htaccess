@@ -1,0 +1,13 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^index$ index.php [NC,L]
+RewriteRule ^admin$ admin.php [NC,L]
+RewriteRule ^new$ new.php [NC,L]
+RewriteRule ^account$ account.php [NC,L]
+RewriteRule ^login$ login.php [NC,L]
+RewriteRule ^register$ register.php [NC,L]
+RewriteRule ^logout$ logout.php [NC,L]
+RewriteRule ^post/(.*)$ post.php?slug=$1 [QSA]
+RewriteRule ^category/(.*)$ category.php?category=$1 [QSA]
+RewriteRule ^user/(.*)$ user.php?id=$1 [QSA]

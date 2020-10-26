@@ -1,0 +1,496 @@
+/* Glacial Indifference Font */
+@font-face {
+  font-family: 'GlacialIndifference-Bold';
+  src: url('../fonts/glacial-indifference/GlacialIndifference-Bold.otf');
+}
+@font-face {
+  font-family: 'GlacialIndifference-Regular';
+  src: url('../fonts/glacial-indifference/GlacialIndifference-Regular.otf');
+}
+
+/* General */
+a {
+  text-decoration: none !important;
+}
+select:focus, textarea:focus, input:focus {
+  outline: none !important;
+	box-shadow: none !important;
+}
+
+/* Alignment */
+.v-m {
+  position: relative;
+  display: block;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.pl-75 {
+  padding-left: 7.5px !important;
+}
+.pr-75 {
+  padding-right: 7.5px !important;
+}
+
+/* Buttons */
+.btn {
+  border-radius: 0px !important;
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 13px !important;
+  line-height: 19px !important;
+  padding: 0.675rem 1.25rem !important;
+}
+.btn.btn-dark {
+  color: #fff;
+  background-color: #333;
+}
+
+/* Nav */
+.nav {
+  width: 100%;
+  height: 80px;
+  background-color: #fff;
+  padding: 0px 30px !important;
+  border-bottom: 1px solid #eee;
+}
+.nav .container-fluid, .nav .container-fluid .row {
+  height: 100%;
+}
+.nav .nav-logo {
+  width: 60px;
+  display: inline-block;
+}
+.nav .nav-logo img {
+  max-width: 100%;
+}
+.nav .nav-links div {
+  display: inline-block;
+  vertical-align: middle;
+}
+.nav .nav-links div a {
+  font-family: 'GlacialIndifference-Bold';
+  font-size: 15px;
+  line-height: 17px;
+  color: #333;
+}
+.nav .nav-links div a i {
+  display: inline-block;
+  vertical-align: middle;
+}
+.nav .nav-links div a span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Header */
+.header {
+  position: relative;
+  width: 100%;
+  height: 420px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-origin: center;
+}
+.header.post-header {
+  height: 520px;
+}
+.header .header-mask {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.header .header-content {
+  padding: 0px 150px 100px 150px;
+  position: relative;
+  top: 100%;
+  transform: translateY(-100%);
+}
+.header .header-content .header-title {
+  font-family: 'GlacialIndifference-Bold';
+  font-size: 45px;
+  line-height: 51px;
+  color: #fff;
+}
+.header .header-content .header-info div {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #ccc;
+  font-size: 12px;
+  line-height: 12px;
+  border-right: 1px solid #ccc;
+  display: inline-block;
+}
+.header .header-content .header-info div a {
+  color: #ccc;
+}
+.header .header-content .header-info div i {
+  font-size: 16px;
+  line-height: 16px;
+  vertical-align: middle;
+  display: inline-block;
+}
+.header .header-content .header-info div span {
+  vertical-align: middle;
+  display: inline-block;
+}
+.header .header-content .header-info div:last-of-type {
+  border-right: none;
+}
+
+/* Section */
+.section {
+  padding: 0px 150px;
+  background-color: #fff;
+}
+.section .section-title {
+  font-family: 'GlacialIndifference-Bold';
+  font-size: 27px;
+  line-height: 29px;
+  color: #333;
+}
+.section .section-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  color: #444;
+}
+.section .section-view-all {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #444;
+  font-size: 12px;
+  line-height: 12px;
+  display: inline-block;
+}
+.section .section-view-all i {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.section .section-view-all div {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.section .post-info div {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #444;
+  font-size: 12px;
+  line-height: 12px;
+  border-right: 1px solid #444;
+  display: inline-block;
+}
+.section .post-info div a {
+  color: #444;
+}
+.section .post-info div i {
+  font-size: 16px;
+  line-height: 16px;
+  vertical-align: middle;
+  display: inline-block;
+}
+.section .post-info div span {
+  vertical-align: middle;
+  display: inline-block;
+}
+.section .post-info div:last-of-type {
+  border-right: none;
+}
+.section .section-right {
+  width: 80%;
+  margin-left: auto;
+}
+.section .post-user {
+  background-color: #f1f1f1;
+}
+.section .post-user .post-user-name {
+  font-family: 'GlacialIndifference-Bold';
+  font-size: 17px;
+  line-height: 21px;
+  color: #333;
+}
+.section .post-user .post-user-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  line-height: 19px;
+  color: #888;
+}
+.section .post-user .post-user-text a {
+  color: #444;
+}
+
+.section .other-posts .other-posts-post {
+  border-bottom: 1px solid #eee;
+}
+.section .other-posts .other-posts-post.last {
+  border-bottom: 0px;
+}
+.section .other-posts .other-posts-post .other-post-title {
+  font-family: 'GlacialIndifference-Bold';
+  font-size: 17px;
+  line-height: 25px;
+  color: #333;
+}
+.section .other-posts .other-posts-post .other-post-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  color: #888;
+}
+.section .other-posts {
+  border-top: 1px solid #eee;
+}
+.section .other-posts.border-none {
+  border-top: 0px;
+}
+.section .post-like-btn {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: #f1f1f1;
+  margin-left: auto;
+  cursor: pointer;
+  transition: ease all 0.3s;
+}
+.section .post-like-btn i {
+  font-size: 28px;
+  line-height: 28px;
+  color: #333;
+}
+.section .post-like-btn.unlike-post {
+  background-color: #e74c3c;
+  box-shadow: 0px 0px 20px #e74c3c;
+  transition: ease all 0.3s;
+}
+.section .post-like-btn.unlike-post i {
+  color: #fff;
+}
+
+/* Box */
+.box .box-image {
+  width: 100%;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.box .box-image.box-image-lg {
+  height: 400px;
+}
+.box .box-title {
+  font-family: 'GlacialIndifference-Bold';
+  font-size: 15px;
+  line-height: 18px;
+  color: #333;
+}
+.box .box-title.title-lg {
+  font-size: 19px;
+  line-height: 23px;
+}
+.box .box-info div {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #888;
+  font-size: 12px;
+  line-height: 12px;
+  border-right: 1px solid #888;
+  display: inline-block;
+}
+.box .box-info div:last-of-type {
+  border-right: none;
+}
+
+/* Forms */
+.form {
+  height: 100vh;
+}
+.form .form-right {
+  width: 100%;
+  height: 100vh;
+  background-image: url('../img/form.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.form .form-right .form-right-mask {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 100px;
+}
+.form .form-right .form-right-title {
+  font-family: 'GlacialIndifference-Bold';
+  font-size: 90px;
+  line-height: 120px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.form .form-left {
+  height: 100vh;
+  padding: 100px;
+}
+.form .form-logo {
+  width: 100px;
+}
+.form .form-logo img {
+  max-width: 100%;
+}
+.form .form-title {
+  font-family: 'GlacialIndifference-Bold';
+  font-size: 27px;
+  line-height: 29px;
+  color: #333;
+}
+.form .form-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  line-height: 19px;
+  color: #888;
+}
+.form .form-text a {
+  color: #333;
+}
+.form-group label {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  line-height: 19px;
+  color: #333;
+}
+.form-group .form-control {
+  border-radius: 0px;
+  border: 1px solid #eee;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  line-height: 19px;
+  color: #333;
+  height: calc(2.5em + .75rem + 2px);
+}
+.form-group select.form-control {
+	-webkit-appearance: none;
+  -moz-appearance: none;
+  background: url('../img/select-chevron.svg') no-repeat calc(100% - 20px) #fff;
+	background-size: 14px;
+}
+.form-group textarea.form-control {
+	padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  min-height: 150px;
+}
+
+/* Alerts */
+.alert {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  line-height: 19px;
+  border-radius: 0px !important;
+}
+
+/* New Post */
+.new-post-image-wrapper {
+  width: 90%;
+  margin-left: auto;
+}
+.new-post-input {
+	position: relative;
+	overflow: hidden;
+	background-color: #f1f1f1;
+  width: 100%;
+	min-height: 200px;
+	cursor: pointer;
+}
+.new-post-image img {
+	max-width: 100%;
+	height: 100%;
+}
+.new-post-input input {
+  cursor: pointer;
+  display: block;
+  font-size: 999px;
+  filter: alpha(opacity=0);
+  min-height: 100%;
+  min-width: 100%;
+  opacity: 0;
+  position: absolute;
+  right: 0px;
+  text-align: right;
+  top: 0px;
+	z-index: 1;
+}
+.new-post-input i {
+	font-size: 36px;
+	line-height: 36px;
+	color: #ccc;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	margin: 0px auto;
+}
+.new-post-input i.edit {
+  color: #fff;
+}
+
+
+/* Account */
+.account .account-badge {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  line-height: 12px;
+  color: #333;
+  border: 1px solid #333;
+  padding: 10px;
+  display: inline-block;
+}
+
+/* Admin */
+.admin-posts .admin-posts-post {
+  border-bottom: 1px solid #eee;
+}
+.admin-posts .admin-posts-post.last {
+  border-bottom: 0px;
+}
+.admin-posts .admin-posts-post-actions div {
+  display: inline-block;
+  vertical-align: middle;
+}
+.admin-posts .admin-posts-post-actions i.highlight {
+  color: #f1c40f;
+  cursor: pointer;
+}
+.admin-posts .admin-posts-post-actions i.edit {
+  color: #3498db;
+}
+.admin-posts .admin-posts-post-actions i.delete {
+  color: #e74c3c;
+}
+.admin-posts .admin-stats {
+  border-bottom: 1px solid #eee;
+}
+.admin-posts .admin-stats .admin-stats-box {
+  background-color: #f1f1f1;
+}
+.admin-posts .admin-stats .admin-stats-box .admin-stats-box-nr {
+  font-family: 'GlacialIndifference-Bold';
+  font-size: 27px;
+  line-height: 29px;
+  color: #333;
+}
+.admin-posts .admin-stats .admin-stats-box .admin-stats-box-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  color: #444;
+}
