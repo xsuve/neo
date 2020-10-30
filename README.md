@@ -1,4 +1,4 @@
-![neo - Tech News CMS - My project for the Web subject from university](screenshot.png)
+![neo - Tech News CMS - My project for the Web subject from university](screenshot.jpg)
 
 `2020 Series`
 # neo - Tech News CMS - My project for the Web subject from university
